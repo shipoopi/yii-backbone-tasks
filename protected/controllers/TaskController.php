@@ -1,7 +1,14 @@
 <?php
 
+/**
+ * Controller for working with the tasks.
+ */
 class TaskController extends Controller
 {
+	/**
+	 * Create new task by given field values set.
+	 * @throws CHttpException
+	 */
 	public function actionCreate()
 	{
 		$task=new Task();
@@ -10,6 +17,9 @@ class TaskController extends Controller
 			throw new CHttpException(400,'Cannot create new task with invalid data.');
 	}
 
+	/**
+	 * List all task records.
+	 */
 	public function actionRead()
 	{
 		$tasks=array();
@@ -21,7 +31,8 @@ class TaskController extends Controller
 	}
 
 	/**
-	 * @param integer $id
+	 * Update existing task by it's given ID.
+	 * @param integer $id ID of the model to be updated.
 	 * @throws CHttpException
 	 */
 	public function actionUpdate($id)
@@ -33,7 +44,8 @@ class TaskController extends Controller
 	}
 
 	/**
-	 * @param integer $id
+	 * Delete existing model from the database by it's given ID.
+	 * @param integer $id ID of the model that should be deleted.
 	 * @throws CHttpException
 	 */
 	public function actionDelete($id)
@@ -44,8 +56,9 @@ class TaskController extends Controller
 	}
 
 	/**
-	 * @param integer $id
-	 * @return Task
+	 * Load the task model from the database.
+	 * @param integer $id the task identifier.
+	 * @return Task the desired model.
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)

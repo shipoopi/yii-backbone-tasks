@@ -3,7 +3,7 @@
 
 $this->pageTitle=Yii::app()->name . ' - About';
 ?>
-<h2>About</h2>
 
-<p>This is a "static" page. You may change the content of this page
-by updating the file <code><?php echo __FILE__; ?></code>.</p>
+<?php $this->beginWidget('CMarkdown'); ?>
+	<?php echo file_get_contents(Yii::getPathOfAlias('webroot').DIRECTORY_SEPARATOR.'README.md'); ?>
+<?php $this->endWidget(); ?>

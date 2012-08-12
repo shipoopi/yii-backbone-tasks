@@ -21,6 +21,7 @@ $cs->registerScriptFile($url.'/js/tasks.js');
 <div id="tasks">
 	<h2>Task list</h2>
 
+	<?php /* Categories switcher. */ ?>
 	<ul class="task-categories">
 		<li><a href="#finished">Finished tasks</a></li>
 		<li><a href="#remaining">Remaining tasks</a></li>
@@ -29,6 +30,7 @@ $cs->registerScriptFile($url.'/js/tasks.js');
 
 	<table>
 		<thead>
+			<?php /* Table header. */ ?>
 			<tr>
 				<td>Title</td>
 				<td>Done</td>
@@ -36,6 +38,7 @@ $cs->registerScriptFile($url.'/js/tasks.js');
 				<td>Actions</td>
 			</tr>
 
+			<?php /* New task creation form. */ ?>
 			<tr>
 				<td>
 					<input type="text" class="task-form-title" />
@@ -52,14 +55,17 @@ $cs->registerScriptFile($url.'/js/tasks.js');
 			</tr>
 		</thead>
 
+		<?php /* Tasks themselves. */ ?>
 		<tbody class="task-list"></tbody>
 	</table>
 </div>
 
+<?php /* Task template. */ ?>
 <script type="text/template" id="task-template">
 	<td class="task-title"></td>
 	<td class="task-done"></td>
 	<td class="task-created"></td>
+
 	<td class="task-actions">
 		<% if (done > 0) { %>
 			<a href="#" class="task-action-toggle-done">Make undone</a>,

@@ -20,3 +20,11 @@
 	font-size: 18px;
 	padding: 5px;
 }
+#tasks .task-categories li{
+	font-size: 14px;
+	margin: 0 0 10px 0;
+}
+#tasks .task-categories li a{
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}

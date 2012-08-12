@@ -29,8 +29,18 @@ CREATE TABLE `tbl_task` (
   `create_time` int(10) NOT NULL DEFAULT '0',
   `update_time` int(10) NOT NULL DEFAULT '0',
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=20 DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB AUTO_INCREMENT=29 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
+
+--
+-- Dumping data for table `tbl_task`
+--
+
+LOCK TABLES `tbl_task` WRITE;
+/*!40000 ALTER TABLE `tbl_task` DISABLE KEYS */;
+INSERT INTO `tbl_task` VALUES (20,'Bake a pie.',0,1344787910,1344787910),(21,'Format HDD.',1,1344787923,1344787923),(22,'Take a bath.',0,1344787934,1344787934),(23,'Take a look at the Symfony2.',0,1344788772,1344788772),(24,'Prepare for the trip.',1,1344788780,1344788780),(25,'wash the dish',0,1344788788,1344788788),(26,'call mom',0,1344788794,1344788794),(27,'repair the bike',1,1344788801,1344788801),(28,'wash the dish',1,1344788806,1344788806);
+/*!40000 ALTER TABLE `tbl_task` ENABLE KEYS */;
+UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
 /*!40101 SET SQL_MODE=@OLD_SQL_MODE */;
@@ -41,4 +51,4 @@ CREATE TABLE `tbl_task` (
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2012-08-12 18:52:25
+-- Dump completed on 2012-08-12 22:27:06
