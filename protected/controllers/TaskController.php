@@ -62,10 +62,10 @@ class TaskController extends Controller
 	 * @throws CHttpException
 	 */
 	public function loadModel($id)
-    {
-        $model=Task::model()->findByPk($id);
-        if($model===null)
-            throw new CHttpException(404,'The requested page does not exist.');
-        return $model;
-    }
+	{
+		$model=Task::model()->findByPk($id);
+		if($model===null)
+			throw new CHttpException(404,'The requested page does not exist.');
+		return $model;
+	}
 }
