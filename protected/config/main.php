@@ -80,7 +80,10 @@ return array(
 			),
 		),
 		'assetManager'=>array(
-			'forceCopy'=>true,
+			'forceCopy'=>YII_DEBUG,
+		),
+		'request'=>array(
+			'enableCsrfValidation'=>false,
 		),
 	),
 
