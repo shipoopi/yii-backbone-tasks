@@ -1,0 +1,819 @@
+2012/08/12 16:09:16 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book
+---
+2012/08/12 16:13:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "collection".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('collection')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('collection')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/collection')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/collection
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:14:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "collection".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('collection')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('collection')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/collection')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/collection
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:14:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "collection".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('collection')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('collection')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/collection')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/collection
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:14:42 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "collection".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('collection')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('collection')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/collection')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/collection
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:35:38 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:35:56 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:37:04 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:43:10 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:43:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:28
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:44:26 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'test' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:25
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:44:28 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'test' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:25
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:44:29 [error] [exception.CHttpException.500] exception 'CHttpException' with message 'test' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:25
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:45:45 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:45 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:45 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:45 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:28
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:45:47 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:47 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:47 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:45:47 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:28
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:46:10 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:10 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:10 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:10 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:30
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:46:22 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:22 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:22 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:22 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:30
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:46:49 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:49 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:49 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:46:49 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:29
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:47:09 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:47:09 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:47:09 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:47:30 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:47:30 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:47:30 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:20 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:20 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:20 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:20 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot save invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:28
+Stack trace:
+#0 [internal function]: TaskController->actionBookPut('3')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CAction.php(107): ReflectionMethod->invokeArgs(Object(TaskController), Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(48): CAction->runWithParamsInternal(Object(TaskController), Object(ReflectionMethod), Array)
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('bookPut')
+#7 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/bookPut')
+#8 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#9 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/task/book/3
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:48:50 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:50 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:50 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:51 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:51 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:48:51 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:02 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:02 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:02 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:09 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:10 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:10 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:10 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:14 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:14 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:14 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:15 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:15 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:15 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:16 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:28 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:29 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:29 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:49:29 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:29 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:29 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:29 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:30 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:30 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:30 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:31 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:31 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:31 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:32 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:32 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:50:32 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (26)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:55:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book/4
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:55:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "book".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('book')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('book')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/book')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task/book/4
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 16:56:28 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (27)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:56:28 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (27)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 16:56:28 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (27)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:09:36 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:09:36 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:09:36 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:10:39 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:10:39 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:10:39 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (18)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:12:29 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index".' in C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php:484
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(271): CController->missingAction('')
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('')
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task')
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#4 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/task
+HTTP_REFERER=http://localhost:8000/site/index
+---
+2012/08/12 17:12:46 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:12:46 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:12:46 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:13:15 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:13:15 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:13:15 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:18 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:18 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:18 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:45 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:45 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:45 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:49 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:49 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:14:49 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:22 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:22 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:22 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:34 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:34 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:34 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:39 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:39 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:39 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:43 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:43 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:15:43 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:14 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:14 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:14 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:16 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:16 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:16 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:19 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:19 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 17:47:19 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:11:03 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:37:51 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:42:06 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:42:06 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:42:06 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:43:19 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:43:19 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:43:19 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:43:19 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Cannot create new task with invalid data.' in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php:10
+Stack trace:
+#0 C:\_work\jetbrains\yii-backbone-tasks\framework\web\actions\CInlineAction.php(50): TaskController->actionCreate()
+#1 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(309): CInlineAction->runWithParams(Array)
+#2 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(287): CController->runAction(Object(CInlineAction))
+#3 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CController.php(266): CController->runActionWithFilters(Object(CInlineAction), Array)
+#4 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(283): CController->run('create')
+#5 C:\_work\jetbrains\yii-backbone-tasks\framework\web\CWebApplication.php(142): CWebApplication->runController('task/create')
+#6 C:\_work\jetbrains\yii-backbone-tasks\framework\base\CApplication.php(162): CWebApplication->processRequest()
+#7 C:\_work\jetbrains\yii-backbone-tasks\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/task
+HTTP_REFERER=http://localhost:8000/
+---
+2012/08/12 18:44:56 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:44:56 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:44:56 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:44:57 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:44:57 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:44:57 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:01 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:01 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:01 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:03 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:03 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:03 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:09 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:09 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:09 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:10 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:10 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:10 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:11 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:11 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:11 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:17 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:17 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:17 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:18 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:18 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:45:18 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (30)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:50:49 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:50:49 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:50:49 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:04 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:04 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:04 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:16 [warning] [application] Failed to set unsafe attribute "id" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:16 [warning] [application] Failed to set unsafe attribute "create_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
+2012/08/12 18:51:16 [warning] [application] Failed to set unsafe attribute "update_time" of "Task".
+in C:\_work\jetbrains\yii-backbone-tasks\protected\controllers\TaskController.php (8)
+in C:\_work\jetbrains\yii-backbone-tasks\index.php (13)
