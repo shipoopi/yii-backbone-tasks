@@ -1,13 +1,14 @@
 jQuery(function($) {
 
+	// Model represents task attributes, data and methods to work with.
 	var Task = Backbone.Model.extend({
 
 		defaults: {
 			id: null,
 			title: '',
 			done: false,
-			create_time: Math.round(+new Date() / 1000),
-			update_time: Math.round(+new Date() / 1000)
+			create_time: Math.round(+new Date() / 1000), // current UNIX timestamp
+			update_time: Math.round(+new Date() / 1000) // current UNIX timestamp
 		},
 
 		toggleDone: function() {
@@ -18,11 +19,14 @@ jQuery(function($) {
 
 	});
 
+	// Model collection for working with a set of models simultaneously.
 	var TaskBook = Backbone.Collection.extend({
 
+		// Specify model.
 		model: Task,
 
-		url: '/task',
+		// Pass the URL for working with tasks.
+		url: tasksParams.tasksUrl(),
 
 		finished: function() {
 			return this.filter(function(task){ return task.get('done') > 0; });
@@ -34,6 +38,7 @@ jQuery(function($) {
 
 	});
 
+	// Create an instance of the tasks collection.
 	var taskBook = new TaskBook;
 
 	var TaskView = Backbone.View.extend({
@@ -85,12 +90,12 @@ jQuery(function($) {
 		},
 
 		toggleDone: function(e) {
-			e.preventDefault();
+			e.preventDefault(); // Ensure that anchor will not to change after click.
 			this.model.toggleDone();
 		},
 
 		delete: function(e) {
-			e.preventDefault();
+			e.preventDefault(); // Ensure that anchor will not to change after click.
 			this.model.destroy();
 		}
 
@@ -130,7 +135,7 @@ jQuery(function($) {
 		},
 
 		createTask: function(e) {
-			e.preventDefault();
+			e.preventDefault(); // Ensure that anchor will not to change after click.
 
 			var title = this.titleInput.val(),
 				done = this.doneCheckbox.prop('checked') ? 1 : 0;
@@ -143,30 +148,37 @@ jQuery(function($) {
 
 	});
 
+	// Create application view.
 	var appView = new AppView;
 
+	// Application URL router.
 	var TaskRouter = Backbone.Router.extend({
 
+		// Route configuration.
 		routes: {
 			'finished': 'showFinished',
 			'remaining': 'showRemaining',
 			'*hash': 'defaultRoute'
 		},
 
+		// Show only finished tasks.
 		showFinished: function() {
 			appView.render(taskBook.finished());
 		},
 
+		// Show tasks to be finished in future.
 		showRemaining: function() {
 			appView.render(taskBook.remaining());
 		},
 
+		// Show all tasks.
 		defaultRoute: function(hash) {
 			appView.render(taskBook.models);
 		}
 
 	});
 
+	// Create router instance and let Backbone work with it.
 	var taskRouter = new TaskRouter;
 	Backbone.history.start();
 

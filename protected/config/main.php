@@ -44,6 +44,9 @@ return array(
 				array('task/update', 'pattern'=>'task/<id:\d+>', 'verb'=>'PUT'),
 				array('task/delete', 'pattern'=>'task/<id:\d+>', 'verb'=>'DELETE'),
 
+				''=>'site/index',
+				'page'=>'site/page',
+
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',

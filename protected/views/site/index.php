@@ -18,6 +18,12 @@ $cs->registerScriptFile($url.'/js/backbone.js');
 $cs->registerScriptFile($url.'/js/tasks.js');
 ?>
 
+<script type="text/javascript">
+	var tasksParams = {
+		tasksUrl: function() { return '<?php echo $this->createUrl('task/read'); ?>'; }
+	};
+</script>
+
 <div id="tasks">
 	<h2>Task list</h2>
 
