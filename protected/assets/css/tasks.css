@@ -1,0 +1,22 @@
+#tasks table{
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+#tasks table tr td{
+	border-bottom: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	padding: 15px;
+	font-size: 14px;
+}
+#tasks table tr td a{
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+#tasks table thead tr td{
+	font-size: 18px;
+	font-weight: bold;
+}
+#tasks table thead tr td input{
+	font-size: 18px;
+	padding: 5px;
+}
